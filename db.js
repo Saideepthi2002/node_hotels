@@ -16,7 +16,7 @@ db.on('connected',()=>{
 
 db.on('error',(err)=>
 {
-    console.err(`Mongodb connection error`)
+    console.error(`Mongodb connection error`)
 })
 
 db.on('disconnected',()=>{
